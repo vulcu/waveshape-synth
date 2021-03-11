@@ -1,4 +1,4 @@
-#N canvas 529 265 979 544 10;
+#N canvas 514 352 979 567 10;
 #X obj 0 4 cnv 15 950 472 empty empty empty 20 12 0 14 -97024 -66577
 0;
 #X floatatom 89 192 3 0 0 0 - #0-ODTValue -, f 3;
@@ -344,10 +344,10 @@ f;
 #X obj 792 51 inlet PWM;
 #X obj 726 51 inlet bend;
 #X obj 852 51 inlet midictl;
-#X text 679 -13 PWM;
+#X text 700 -13 PWM;
 #X text 0 4 NOTE;
-#X text 167 -13 VELOCITY;
-#X text 422 -13 BEND;
+#X text 215 -13 VELOCITY;
+#X text 462 -13 BEND;
 #X text 904 -13 MIDICTL;
 #X text 0 475 MIDI DATA;
 #X text 802 475 REALTIME CONTROLLER DATA;
