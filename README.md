@@ -15,12 +15,7 @@ This project is a synthesizer not quite like any other. It relies on a handful o
 The goal of this project is to provide a quick and simple way for a user to dial in rich, complex synth sounds without needing to know much about synthesizers. Unlike the [wavedist](https://github.com/vulcu/wavedist) plugin, all the waveshapers are active at once here, allowing for some truly wild harmonic ratios.
 
 ## Features ##
-Use `example.pd` to see typical usage within a Pure Data patch
-
-
-![Main User Interface](./images/ws-controls-main.png)
-
-Typical implementation withing a Pure-Data patch might look like this:
+Typical implementation withing a Pure-Data patch might look like this (from `example.pd`):
 
 ![Typical Implementation Selector](./images/ws-example-main.png)
 
@@ -32,6 +27,8 @@ Typical implementation withing a Pure-Data patch might look like this:
 
 ## Automatonism ##
 This project is intended to be usable with [Automatonism](https://www.automatonism.com/the-software) and the `Waveshape-Automatonism.pd` patch may be used to interface Waveshape-Synth with Automatonism sub-patches and control signals.
+
+![Automatonism Interface Patch](./images/ws-automatonism-main.png)
 
 ## Installation ##
 To use this project, install it locally and open it with Pure Data or Purr Data. It intended to be compatible with Pd-Vanilla and so should work without any other dependencies, if this isn't the case then please let me know.
