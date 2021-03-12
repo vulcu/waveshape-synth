@@ -1,5 +1,5 @@
-# WaveDist - Waveshaper Audio Distortion #
-A stereo audio distortion plugin created in JSFX for the Reaper DAW.
+# Waveshape-Synth - Waveshaping Polyphonic Synthesizer #
+An 8-voice polyphonic audio synthesizer with per-voice oscillator waveshaping created as a collection of Pure Data subpatches. Compatible with Pd-Vanilla but largely developed and tested in Purr Data. It was inspired by [wavedist](https://github.com/vulcu/wavedist) and uses the same waveshaping algorithms.
 
 ## Table of Contents ##
 * [General Info](#general-info)
@@ -9,11 +9,13 @@ A stereo audio distortion plugin created in JSFX for the Reaper DAW.
 * [References](#references)
 
 ## General Info
-This project makes things sound bad, but in a good way. It relies on a handful of waveshaping algorithms to produce differing kinds of overdrive and distortion. The harmonic ratios and the balance between even and odd harmonics varies by algorithm, with some sounding better on certain musical sources than others. There's no hard-and-fast rules here, so just use your ears.
+This project is a synthesizer not quite like any other. It relies on a handful of waveshaping algorithms to produce differing kinds of overdrive and distortion from the oscillators of each synthesizer voice, and then applies an ADS-envelope low-pass filter to each voice on an individual basis. The harmonic ratios and the balance between even and odd harmonics varies by algorithm, with some sounding better than others for certain oscillator and envelope combinations. There's no hard-and-fast rules here, so just use your ears.
 
-The `Input Rectification` control can lend itself to some neat octave-doubling effects too!
+The goal of this project is to provide a quick and simple way for a user to dial in rich, complex synth sounds without needing to know much about synthesizers. Unlike the [wavedist](https://github.com/vulcu/wavedist) plugin, all the waveshapers are active at once here, allowing for some incredibly complex harmonics.
 
 ## Features ##
+Use `example.pd` to see typical usage within a Pure Data patch
+Use `Waveshape-Automatism.pd` to interface with Automatism sub-patches and control signals
 There are controls for `Input` and `Output` levels, along with a few other sliders:
 
 ![Main User Interface](./images/wavedist-ui-main.png)
@@ -60,3 +62,4 @@ This project uses the following algorithms for waveshaping and signal limiting:
 
 ## ##
 (C) 2017-2021, Winry R. Litwa-Vulcu
+
