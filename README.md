@@ -57,4 +57,3 @@ This project uses the following algorithms for waveshaping and signal limiting:
 
 ## ##
 (C) 2017-2021, Winry R. Litwa-Vulcu
-
