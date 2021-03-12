@@ -4,7 +4,7 @@ An 8-voice polyphonic audio synthesizer with per-voice oscillator waveshaping cr
 ## Table of Contents ##
 * [General Info](#general-info)
 * [Features](#features)
-* [Automatism](#Automatism)
+* [Automatonism](#automatonism)
 * [Installation](#installation)
 * [Algorithms](#algorithms)
 * [References](#references)
