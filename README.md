@@ -4,6 +4,7 @@ An 8-voice polyphonic audio synthesizer with per-voice oscillator waveshaping cr
 ## Table of Contents ##
 * [General Info](#general-info)
 * [Features](#features)
+* [Automatism](#Automatism)
 * [Installation](#installation)
 * [Algorithms](#algorithms)
 * [References](#references)
@@ -15,7 +16,7 @@ The goal of this project is to provide a quick and simple way for a user to dial
 
 ## Features ##
 Use `example.pd` to see typical usage within a Pure Data patch
-Use `Waveshape-Automatism.pd` to interface with Automatism sub-patches and control signals
+
 
 ![Main User Interface](./images/ws-controls-main.png)
 
@@ -28,6 +29,9 @@ Typical implementation withing a Pure-Data patch might look like this:
 * Nothing planned but feature may be added as needed or if requested
 
 #### Status: This project is active but development is slow ####
+
+## Automatonism ##
+This project is intended to be usable with [Automatonism](https://www.automatonism.com/the-software) and the `Waveshape-Automatonism.pd` patch may be used to interface Waveshape-Synth with Automatonism sub-patches and control signals.
 
 ## Installation ##
 To use this project, install it locally and open it with Pure Data or Purr Data. It intended to be compatible with Pd-Vanilla and so should work without any other dependencies, if this isn't the case then please let me know.
