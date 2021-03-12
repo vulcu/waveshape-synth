@@ -16,29 +16,21 @@ The goal of this project is to provide a quick and simple way for a user to dial
 ## Features ##
 Use `example.pd` to see typical usage within a Pure Data patch
 Use `Waveshape-Automatism.pd` to interface with Automatism sub-patches and control signals
-There are controls for `Input` and `Output` levels, along with a few other sliders:
 
-![Main User Interface](./images/wavedist-ui-main.png)
+![Main User Interface](./images/ws-controls-main.png)
 
-There is also a drop-down selector box for selecting which waveshaper is active:
+Typical implementation withing a Pure-Data patch might look like this:
 
-![Algorithm Drop-down Selector](./images/wavedist-ui-dropdown.png)
+![Typical Implementation Selector](./images/ws-example-main.png)
 
-Each option in the drop-down has an associated slider to control it:
-1) `leaky-integrator` -> `Integrator Tc`
-2) `soft-knee` -> `Soft-Clip Knee`
-3) `cubic` -> `Cubic Harmonic Balance`
-4) `warp` -> `Warp K Level`
-
-The `Input Rectification` is always active and can be used in addition to the active waveshaper. It controls the amount by which the input signal is recified and can be set to `0.0` to disable it.
 
 #### To Do ####
-* Add oversampling + filtering to reduce aliasing artifacts
+* Nothing planned but feature may be added as needed or if requested
 
 #### Status: This project is active but development is slow ####
 
 ## Installation ##
-To use this project, install it locally into your systems's `/Reaper/Effects` folder. On Windows 10, JSFX effects are usually located in `%appdata%\Reaper\Effects`. You may want to install it into another folder within that folder, such as %appdata%\Reaper\Effects\vulcu`.
+To use this project, install it locally and open it with Pure Data or Purr Data. It intended to be compatible with Pd-Vanilla and so should work without any other dependencies, if this isn't the case then please let me know.
 
 ## Algorithms ##
 This project uses the following algorithms for waveshaping and signal limiting:
