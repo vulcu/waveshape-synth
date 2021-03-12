@@ -12,16 +12,18 @@ An 8-voice polyphonic audio synthesizer with per-voice oscillator waveshaping cr
 ## General Info
 This project is a synthesizer not quite like any other. It relies on a handful of waveshaping algorithms to produce differing kinds of overdrive and distortion from the oscillators of each synthesizer voice, and then applies an ADS-envelope low-pass filter to each voice on an individual basis. The harmonic ratios and the balance between even and odd harmonics varies by algorithm, with some sounding better than others for certain oscillator and envelope combinations. There's no hard-and-fast rules here, so just use your ears.
 
+![Waveshape UI Controls next to PD Code](./images/ws-controls-waveshape.png)
+
 The goal of this project is to provide a quick and simple way for a user to dial in rich, complex synth sounds without needing to know much about synthesizers. Unlike the [wavedist](https://github.com/vulcu/wavedist) plugin, all the waveshapers are active at once here, allowing for some truly wild harmonic ratios.
 
 ## Features ##
-Typical implementation withing a Pure-Data patch might look like this (from `example.pd`):
+Typical implementation within a Pure-Data patch might look like this (from `example.pd`):
 
 ![Typical Implementation Selector](./images/ws-example-main.png)
 
-
 #### To Do ####
-* Nothing planned but feature may be added as needed or if requested
+* Update the README with additional `Features` information regarding usage
+* No new features planned but they may be added as concieved or if requested
 
 #### Status: This project is active but development is slow ####
 
