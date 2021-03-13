@@ -33,7 +33,7 @@ Typical implementation within a Pure-Data environment might look like this (from
 #### To Do ####
 * No new features planned but open to requests
 
-#### Status: This project is active but considered completed ####
+#### Status: This project is maintained but considered complete. Additional features are unlikely to be added. ####
 
 ## Automatonism ##
 This project is intended to be usable with [Automatonism](https://www.automatonism.com/the-software) and the `Waveshape-Automatonism.pd` patch may be used to interface Waveshape-Synth with Automatonism sub-patches and control signals.
