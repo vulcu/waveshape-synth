@@ -1,5 +1,5 @@
 # Waveshape-Synth - Waveshaping Polyphonic Synthesizer #
-An 8-voice polyphonic audio synthesizer with per-voice oscillator waveshaping created as a collection of Pure Data subpatches. Compatible with Pd-Vanilla but largely developed and tested in Purr Data. It was inspired by [wavedist](https://github.com/vulcu/wavedist) and uses the same waveshaping algorithms.
+An 8-voice polyphonic audio synthesizer with per-voice oscillator waveshaping created as a collection of Pure Data subpatches. Compatible with [Pd-Vanilla](https://puredata.info/downloads/pure-data) and [Automatonism](https://www.automatonism.com/). It was inspired by [wavedist](https://github.com/vulcu/wavedist) and uses the same waveshaping algorithms.
 
 ## Table of Contents ##
 * [General Info](#general-info)
@@ -17,6 +17,14 @@ This project is a synthesizer not quite like any other. It relies on a handful o
 The goal of this project is to provide a quick and simple way for a user to dial in rich, complex synth sounds without needing to know much about synthesizers. Unlike the [wavedist](https://github.com/vulcu/wavedist) plugin, all the waveshapers are active at once here, allowing for some truly wild harmonic ratios.
 
 ## Features ##
+* 1, 2, 4, or 8 Voices
+* 7 Oscillators, 1 ADSR, and 2 ADS envelopes per-voice
+* Oscillators selectable between Sine, Saw, and a PWM with a 5%-50% automatable duty-cycle
+* 6 different waveshaping algorithms and a Gain control
+* Unison control (oscillator de-tune)
+* Bit depth control/crush range of 1-12 bits
+* Portamento control (monophonic only)
+* Automatonism interface allowing Clock and Pitch signals to control note on/off, PWM depth, and more
 Typical implementation within a Pure-Data patch might look like this (from `example.pd`):
 
 ![Typical Implementation Selector](./images/ws-example-main.png)
