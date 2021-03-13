@@ -25,15 +25,15 @@ The goal of this project is to provide a quick and simple way for a user to dial
 * Bit depth control/crush range of 1-12 bits
 * Portamento control (monophonic only)
 * Automatonism interface allowing Clock and Pitch signals to control note on/off, PWM depth, and more
-Typical implementation within a Pure-Data patch might look like this (from `example.pd`):
+
+Typical implementation within a Pure-Data environment might look like this (from `example.pd`):
 
 ![Typical Implementation Selector](./images/ws-example-main.png)
 
 #### To Do ####
-* Update the README with additional `Features` information regarding usage
-* No new features planned but they may be added as concieved or if requested
+* No new features planned but open to requests
 
-#### Status: This project is active but development is slow ####
+#### Status: This project is active but considered completed ####
 
 ## Automatonism ##
 This project is intended to be usable with [Automatonism](https://www.automatonism.com/the-software) and the `Waveshape-Automatonism.pd` patch may be used to interface Waveshape-Synth with Automatonism sub-patches and control signals.
@@ -41,7 +41,7 @@ This project is intended to be usable with [Automatonism](https://www.automatoni
 ![Automatonism Interface Patch](./images/ws-automatonism-main.png)
 
 ## Installation ##
-To use this project, install it locally and open it with Pure Data or Purr Data. It intended to be compatible with Pd-Vanilla and so should work without any other dependencies, if this isn't the case then please let me know.
+To use this project, install it locally and open it with Pure Data or Purr Data. It intended to be compatible with the vanilla distribution of Pure Data should not require additional dependencies (if this isn't the case then please let me know).
 
 ## Algorithms ##
 This project uses the following algorithms for waveshaping and signal limiting:
