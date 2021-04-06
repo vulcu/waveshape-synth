@@ -41,7 +41,9 @@ This project is intended to be usable with [Automatonism](https://www.automatoni
 ![Automatonism Interface Patch](./images/ws-automatonism-main.png)
 
 ## Installation ##
-To use this project, install it locally and open it with Pure Data or Purr Data. It intended to be compatible with the vanilla distribution of [Pure Data](https://puredata.info/downloads/pure-data) and should not require additional dependencies (if this isn't the case then please let me know).
+To use this project, install it locally and open it with Pure Data or Purr Data. If installing it as a library, remember to add that library folder to PD's _Search Paths_.
+
+_Waveshape-Synth_ is intended to be compatible with the vanilla distribution of [Pure Data](https://puredata.info/downloads/pure-data) and should not require additional dependencies (if this isn't the case then please let me know).
 
 ## Algorithms ##
 This project uses the following algorithms for waveshaping and signal limiting:
